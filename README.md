@@ -42,19 +42,19 @@ Invalid requests are handled by exception handlers.
 * By first name
 <p><b>http://localhost:8090/api/customers/order_by=first_name</b></p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-firstname.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filter-by-firstname.JPG">
 </p>
 
 * By email
 <p><b>http://localhost:8090/api/customers/order_by=email</b></p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-email.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filter-by-email.JPG">
 </p>
 
 * Filter by any
 <p><b>http://localhost:8090/api/customers/filter={value}</b></p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-any.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filter-by-any.JPG">
 </p>
 
 #### Get CUSTOMER by ID
