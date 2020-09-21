@@ -26,30 +26,59 @@ Invalid requests are handled by exception handlers.
 
 ## Sample usage (e.g. with POSTMAN)
 
-####Get CUSTOMERS:
+#### Get CUSTOMERS:
 <p><b>http://localhost:8090/api/customers</b></p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/get-customers.JPG">
 </p>
 
-####Filter CUSTOMERS
+#### Filter CUSTOMERS
 * By last name
 <p><b>http://localhost:8090/api/customers/order_by=last_name</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filter-by-lastname.JPG">
+</p>
+
 * By first name
 <p><b>http://localhost:8090/api/customers/order_by=first_name</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-firstname.JPG">
+</p>
+
+* By email
+<p><b>http://localhost:8090/api/customers/order_by=email</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-email.JPG">
+</p>
+
 * Filter by any
 <p><b>http://localhost:8090/api/customers/filter={value}</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/filer-by-any.JPG">
+</p>
 
-####Get CUSTOMER by ID
+#### Get CUSTOMER by ID
 <p><b>http://localhost:8090/api/customers/{id}</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/get-customer.JPG">
+</p>
 
-####Save CUSTOMER
+#### Save CUSTOMER
 <p><b>http://localhost:8090/api/customers/add-new</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/add-new.JPG">
+</p>
 
-####Update CUSTOMER
+#### Update CUSTOMER
 <p><b>http://localhost:8090/api/customers/update/{id}</b></p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/save-customer-before.JPG">
+</p>
+<p align="center">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/save-customer-after.JPG">
+</p>
 
-####Delete CUSTOMER
+#### Delete CUSTOMER
 <p><b>http://localhost:8090/api/customers/delete/{id}</b></p>
 
 ## Authors
