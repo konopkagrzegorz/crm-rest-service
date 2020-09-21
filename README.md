@@ -72,10 +72,10 @@ Invalid requests are handled by exception handlers.
 #### Update CUSTOMER
 <p><b>http://localhost:8090/api/customers/update/{id}</b></p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/save-customer-before.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/update-customer-before.JPG">
 </p>
 <p align="center">
-  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/save-customer-after.JPG">
+  <img src="https://github.com/konopkagrzegorz/crm-rest-service/blob/master/images/update-customer-after.JPG">
 </p>
 
 #### Delete CUSTOMER
